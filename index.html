@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow - Mood Tracker</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div  class="mood-tracker">
+    <h1>Welcome to Glow</h1>
+    <p id="mood-feedback" style="font-weight:bold; margin-top:10px;"></p>
+
+
+<button class="amunition" onclick="selectMood('😊 happy')">😊 happy</button>
+<button class="amunition" onclick="selectMood('😢 sad')">😢 sad</button>
+<button class="amunition" onclick="selectMood('😡 angry')">😡 angry</button>
+<button class="amunition" onclick="selectMood('❤ loved')">❤ loved</button>
+<button class="amunition" onclick="selectMood('😴 sleepy')">😴 sleepy</button>
+
+
+</div>
+
+
+
+    <P>✨ Tip: Take 5 minute to relaX your mind today.</P>
+
+</div>
+
+      <h2>HOW are you feeling today?</h2>
+      <p>pleae Select your mood</p>
+
+      <h3>Mood History</h3>
+      <ul id="mood-history"></ul>
+
+    <button onclick="clearHistory()" class="clear">Clear History</button>
+    </div>
+    <script src="script.js"></script> 
+
+
+    </body>
+</html>
