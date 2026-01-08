@@ -1,5 +1,3 @@
-﻿# Glow-mood-tracker
-# Glow-mood-tracker
-# Glow-mood-tracker
+
 # Glow-mood-tracker
 
